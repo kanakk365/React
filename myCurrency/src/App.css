@@ -1,0 +1,80 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+}
+.page{
+  background-color: #eeee;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+  background-color: white;
+  border-radius: 20px;
+  height: 15rem;
+  width: 60rem;
+  padding: 30px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.upper{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.swap{
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  transform: translateY(30px);
+  color: rgb(0, 108, 224);
+  border-color: #eeee;
+  background-color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.upper input{
+  height: 30px;
+  width: 300px;
+  font-size: 1.3rem;
+}
+.upper select{
+  width: 250px;
+  height: 34px;
+  font-size: 1.3rem;
+}
+label{
+  font-size: 1.4rem;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+}
+.lower{
+  display: flex;
+  justify-content: space-between;
+}
+.sec{
+  display: flex;
+  flex-direction: column;
+}
+.lower p{
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.lower button{
+  background-color: rgb(7, 112, 224);
+  color: white;
+  border: 0;
+  padding: 10px  10px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  display: none;
+}
